@@ -11,11 +11,12 @@ In the terminal, use the following commands:
 * `npm install`
 * `npm install express`
 
-## Usage
-
 ## Screenshots
+
+![landing](public/assets/images/noteTaker.png)
+![newNote](public/assets/images/newNote.png)
 
 ## Links
 
 * https://github.com/LostandConfusedStudent/Note-Taker
-* 
+* https://dry-thicket-85836.herokuapp.com/
