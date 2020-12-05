@@ -68,7 +68,7 @@ const handleNoteDelete = function (event) {
   event.stopPropagation();
 
   const note = $(this).parent(".list-group-item").data();
-
+  console.log(note)
   if (activeNote.id === note.id) {
     activeNote = {};
   }
@@ -127,8 +127,8 @@ const renderNoteList = (notes) => {
     noteListItems.push(create$li("No saved Notes", false));
   }
 
-  notes.forEach((note) => {
-    const $li = create$li(note.title).data(note);
+  notes.forEach((note, i) => {
+    const $li = create$li(note.title).data({...note, id:i});
     noteListItems.push($li);
   });
 

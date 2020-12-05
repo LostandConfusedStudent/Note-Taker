@@ -1,6 +1,6 @@
 // Dependencies
-var fs = require("fs");
-var path = require("path");
+const fs = require("fs");
+const path = require("path");
 
 module.exports = function(app) {
     // GET request
@@ -18,7 +18,7 @@ module.exports = function(app) {
             var notes = JSON.parse(data);
             notes.push(req.body);
             fs.writeFile(path.join(__dirname, "../db/db.json"), JSON.stringify(notes, null, "\t"), err => {
-                res.json("success")
+                res.json("cool")
             });
         });
     });

@@ -1,11 +1,11 @@
 // Require express
-var express = require("express");
+const express = require("express");
 
 // Create express app
-var app = express();
+const app = express();
 
 // Setup port
-var PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

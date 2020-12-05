@@ -1,5 +1,5 @@
 // Require path
-var path = require("path");
+const path = require("path");
 
 module.exports = function(app) {
     app.get("/notes", function(req, res) {
