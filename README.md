@@ -14,7 +14,7 @@ In the terminal, use the following commands:
 ## Screenshots
 
 ![landing](public/assets/images/noteTaker.png)
-![newNote](public/assets/images/newNote.png)
+![newNote](public/assets/images/addedNote.png)
 
 ## Links
 
