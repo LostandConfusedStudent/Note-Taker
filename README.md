@@ -8,6 +8,7 @@ This is the homework for week eleven. The goal is to create a note-taking applic
 
 In the terminal, use the following commands:
 
+* `npm install`
 * `npm install express`
 
 ## Usage
